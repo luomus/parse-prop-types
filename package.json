@@ -1,15 +1,14 @@
 {
-  "name": "parse-prop-types",
+  "name": "@luomus/parse-prop-types",
   "version": "0.3.0",
   "description": "Parses React prop-types into a readable object",
   "license": "MIT",
-  "repository": "diegohaz/parse-prop-types",
-  "main": "dist/index.js",
-  "author": {
-    "name": "Diego Haz",
-    "email": "hazdiego@gmail.com",
-    "url": "https://github.com/diegohaz"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegohaz/parse-prop-types.git"
   },
+  "main": "dist/index.js",
+  "author": "Diego Haz <hazdiego@gmail.com> (https://github.com/diegohaz)",
   "engines": {
     "node": ">=6"
   },
@@ -68,5 +67,12 @@
   },
   "peerDependencies": {
     "prop-types": "^15.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/diegohaz/parse-prop-types/issues"
+  },
+  "homepage": "https://github.com/diegohaz/parse-prop-types#readme",
+  "directories": {
+    "test": "test"
   }
 }
